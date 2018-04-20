@@ -48,9 +48,14 @@ body {
 }
 nav {
   background: rgb(2, 2, 70);
-}
-nav a {
-  padding: 20px;
-  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  font-size: 20px;
   color: white;
 }
+nav a {
+  margin: 20px;
+}
+

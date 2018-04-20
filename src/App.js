@@ -13,10 +13,12 @@ class App extends Component {
     </header>
 
     <nav>
-      <a href="">About Me</a>
+    <div id='stuff'>
+      <a href="">About</a>
       <a href="https://biscotini917.github.io/GuessingGame-Part3/ ">Work</a>
       <a href="">Clients</a>
       <a href="mailto:brucewleong@gmail.com?Subject=Inquiry" target="_top">Send Mail</a>
+      </div>
     </nav>
     <article id="about_me">
     <img id="profile_image" src={profile} />
