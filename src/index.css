@@ -3,3 +3,54 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+header {
+  background: url("./maria_bruce.jpg");
+  background-size: cover;
+  height: 30vh;
+}
+
+#title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  color:white;
+  display: inline-block;
+  padding: .2em .2em;
+  border: white solid 4px;
+  letter-spacing: .05em;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  clear: both;
+}
+
+#kicker {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  letter-spacing: .05em;
+}
+
+#profile_image {
+  height: 20vh;
+  margin:0px;
+  border:10px solid white;
+  border-radius: 20px;
+}
+
+body {
+  text-align: center;
+}
+
+#about_me {
+  color: black;
+  font-family: arial;
+}
+nav {
+  background: rgb(2, 2, 70);
+}
+nav a {
+  padding: 20px;
+  font-size: 25px;
+  color: white;
+}
