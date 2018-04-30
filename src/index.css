@@ -7,7 +7,7 @@ body {
 header {
   background: url("./maria_bruce.jpg");
   background-size: cover;
-  height: 30vh;
+  height: 35vh;
 }
 
 #title {
@@ -38,6 +38,12 @@ header {
   border-radius: 20px;
 }
 
+.sCat {
+  width: 40vw;
+  height: auto;
+  margin: 2vw;
+}
+
 body {
   text-align: center;
 }
@@ -47,15 +53,41 @@ body {
   font-family: arial;
 }
 nav {
-  background: rgb(2, 2, 70);
+  background: rgb(228, 220, 220);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
   font-size: 20px;
-  color: white;
+  color: Black;
 }
 nav a {
   margin: 20px;
 }
 
+.worksTitle {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.textContent {
+  margin: 5vw;
+  color: black;
+}
+
+.greyPage {
+  /* border-radius: 1vw;
+  box-shadow: 0px 0px 1.4vw .2vw white; */
+  background-color: darkgray;
+  /* border: 1px solid rgb(140, 191, 132); */
+  padding: 2vh;
+}
+
+.whitePage {
+  /* border-radius: 1vw;
+  box-shadow: 0px 0px 1.4vw .2vw white; */
+  background-color: white;
+  /* border: 1px solid rgb(140, 191, 132); */
+  padding: 2vh;
+}
