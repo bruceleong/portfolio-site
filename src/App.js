@@ -12,12 +12,11 @@ class App extends Component {
     }
   }
   render() {
-    console.log(this.state, 'current state')
     return (
       <div className="App">
         <header>
           <h1 id="title">Bruce Leong</h1>
-          <p id="kicker"> Creator // Runner // Web Developer</p>
+          <p id="kicker"> Creator // Runner // Software Engineer</p>
         </header>
 
         <nav>
@@ -30,9 +29,9 @@ class App extends Component {
           <img id="profile_image" src={profile} />
           <div className="textContent">
             <h1>Who is Bruce?</h1>
-            <p>Bruce Leong is a Runner, Software Developer, father of 2 cats</p>
+            <p>Bruce Leong is a Runner, Software Engineer, father of 2 cats</p>
             <p>He is a tech veteran with experience at top tier companies like Pandora and WebMD</p>
-            <p>He launched the <a target="_blank" rel="noopener noreferrer" href="https://www.dapperguide.com">DapperGuide Magazine</a></p>
+            <p>He launched the <a target="_blank" rel="noopener noreferrer" href="https://www.dapperguide.com">Dapper Guide Magazine</a></p>
             <p>See more details below</p>
           </div>
         </div>
