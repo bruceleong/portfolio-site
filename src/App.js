@@ -3,6 +3,7 @@ import './App.css';
 import profile from './profile_pic.png'
 import sCatCover from './images/scatCover.png'
 import sCatGame from './images/ezgif.com-gif-maker.gif'
+import github from './images/GitHub_Logo.png'
 
 class App extends Component {
   constructor(props) {
@@ -37,9 +38,13 @@ class App extends Component {
         </div>
         <div className="greyPage">
           <h1>Bruce's Work</h1>
-          <h2>Articles: </h2>
+          <h2>Code: </h2>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/bruceleong"><img style={{width: '25%', height: 'auto'}} src={github} /></a>
+          <h2>Writing: </h2>
           <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@brucewleong/building-a-game-with-phaserjs-easy-steps-7e4b38d36e22"><h4>Build a game with PhaserJS (Easy steps) - Publication: Medium 2018</h4></a>
           <a target="_blank" rel="noopener noreferrer" href="https://dapperguide.com"><h4>Dapper Guide Magazine</h4></a>
+          <br />
+          <h2>Projects: </h2>
           <a target="_blank" rel="noopener noreferrer" href="https://bruceleong.github.io/SamuraiCat/" style={{ textDecoration: 'none' }}>
             <div>
               <div className="textContent">
