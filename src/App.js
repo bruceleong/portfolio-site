@@ -33,6 +33,7 @@ class App extends Component {
             <p>Bruce Leong is a Runner, Software Engineer, father of 2 cats</p>
             <p>He is a tech veteran with experience at top tier companies like Pandora and WebMD</p>
             <p>He launched the <a target="_blank" rel="noopener noreferrer" href="https://www.dapperguide.com">Dapper Guide Magazine</a></p>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bruce-leong-112a904/"><p>Checkout his Linkedin</p></a>
             <p>See more details below</p>
           </div>
         </div>
