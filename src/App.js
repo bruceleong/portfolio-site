@@ -39,7 +39,7 @@ class App extends Component {
               <p>See more details below</p>
             </div>
             <div>
-              <img id="profile_image" src={profile} />
+            <img className="sCat" src={sCatGame} />
             </div>
           </div>
 
