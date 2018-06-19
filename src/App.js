@@ -3,7 +3,10 @@ import './App.css';
 import profile from './profile_pic.png'
 import sCatCover from './images/scatCover.png'
 import sCatGame from './images/ezgif.com-gif-maker.gif'
+import DG from './images/dg.jpg'
 import github from './images/GitHub_Logo.png'
+import k1 from './images/kingdom-1.png'
+import k2 from './images/kingdom-2.png'
 import Carousel from 'nuka-carousel'
 
 class App extends Component {
@@ -28,9 +31,11 @@ class App extends Component {
           </div>
         </nav>*/}
         <div className="whitePage">
-          <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'row' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }}>
             <div>
               <img id="profile_image" src={profile} />
+            </div>
+            <div>
               <h1>Who is Bruce?</h1>
               <p>Bruce Leong is a Runner, Software Engineer, father of 2 cats</p>
               <p>He is a tech veteran with experience at top tier companies like Pandora and WebMD</p>
@@ -38,9 +43,9 @@ class App extends Component {
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bruce-leong-112a904/"><p>Check out his Linkedin</p></a>
               <p>See more details below</p>
             </div>
-            <div>
-            <img className="sCat" src={sCatGame} />
-            </div>
+            {/*          <div>
+          <img className="sCat" src={sCatGame} />
+</div>*/}
           </div>
 
         </div>
@@ -52,13 +57,46 @@ class App extends Component {
           <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@brucewleong/building-a-game-with-phaserjs-easy-steps-7e4b38d36e22"><h4>Build a game with PhaserJS (Easy steps) - Publication: Medium 2018</h4></a>
           <a target="_blank" rel="noopener noreferrer" href="https://dapperguide.com"><h4>Dapper Guide Magazine</h4></a>
           <br />
-          <h2>His Projects: </h2>
+        </div>
+        <div className="bluePage">
+          <h1>His Projects: </h1>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.dapperguide.com/" style={{ textDecoration: 'none' }}>
+            <div className="textContent">
+              <h1>Dapper Guide</h1>
+              <p><b>Description:</b> Men's style guide created by Bruce Leong and Raymond Wong</p>
+              <p><b>Role:</b> Software Engineer and Managing Editor</p>
+              <p><b>Technologies:</b> Wordpress, CSS, HTML, PHP, wrote, shot and designed all media</p>
+              <h4>CLICK HERE TO VISIT</h4>
+              <img style={{ 'height': '75%', 'width': '75%' }} src={DG} />
+            </div>
+          </a>
+        </div>
+        <div className="whitePage">
+          <a target="_blank" rel="noopener noreferrer" href="http://www.kingdom.netlify.com/" style={{ textDecoration: 'none' }}>
+            <div className="textContent">
+              <h1>Kingdom</h1>
+              <p><b>Description:</b> Location-based role playing game - Game of Thrones meets FourSquare</p>
+              <p><b>Role:</b> Software Engineer</p>
+              <p><b>Technologies:</b> Javascript, React, Redux, OAuth, Trello, Netlify, CSS, HTML</p>
+              <h4>CLICK HERE TO VISIT</h4>
+              <iframe width="336" height="200" src="https://www.youtube.com/embed/FovQ4xsrMyY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'row' }}>
+                <img style={{ 'height': '25%', 'width': '25%' }} src={k1} />
+                <div style={{ width: "10vw" }}>
+                </div>
+                <img style={{ 'height': '25%', 'width': '25%' }} src={k2} />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="greyPage">
           <a target="_blank" rel="noopener noreferrer" href="https://bruceleong.github.io/SamuraiCat/" style={{ textDecoration: 'none' }}>
             <div>
               <div className="textContent">
-                <h2>Samurai Cat Game</h2>
-                <p>Description: Samurai Cat is a platformer game created during a Fullstack Academy Hackathon, which took place over the course of 4 days where developers were invited to explore and create new products</p>
-                <p>Technologies: Javascript, Phaser, Trello, designed all artwork</p>
+                <h1>Samurai Cat Game</h1>
+                <p><b>Description:</b> Samurai Cat is a platformer game created during a Fullstack Academy Hackathon, which took place over the course of 4 days where developers were invited to explore and create new products</p>
+                <p><b>Role:</b> Software Engineer</p>
+                <p><b>Technologies:</b> Javascript, Phaser, Trello, designed all artwork</p>
                 <h4>CLICK HERE TO PLAY!</h4>
               </div>
               <iframe width="336" height="200" src="https://www.youtube.com/embed/wYe5ICYOUNU" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
