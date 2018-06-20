@@ -1,3 +1,2 @@
- Portfolio Website -
--npm start to run
--npm run build
+Bruce Leong's Portfolio Site 
+Visit at www.bruceleong.com
