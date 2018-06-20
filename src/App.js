@@ -36,8 +36,8 @@ class App extends Component {
               <img id="profile_image" src={profile} />
             </div>
             <div>
-              <h1>Who is Bruce?</h1>
-              <p>Bruce Leong is a Runner, Software Engineer, father of 2 cats</p>
+              <h1>Bruce leong</h1>
+              <p>Bruce is a Runner, Software Engineer, father of 2 cats</p>
               <p>He is a tech veteran with experience at top tier companies like Pandora and WebMD</p>
               <p>He launched the <a target="_blank" rel="noopener noreferrer" href="https://www.dapperguide.com">Dapper Guide Magazine</a></p>
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bruce-leong-112a904/"><p>Check out his Linkedin</p></a>
