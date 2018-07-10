@@ -7,7 +7,6 @@ import DG from './images/dg.jpg'
 import github from './images/GitHub_Logo.png'
 import k1 from './images/kingdom-1.png'
 import k2 from './images/kingdom-2.png'
-import Carousel from 'nuka-carousel'
 
 class App extends Component {
   constructor(props) {
@@ -36,7 +35,7 @@ class App extends Component {
               <br />
               <br />
               <a className="btn__email-submission" href="mailto:brucewleong@gmail.com?Subject=Hi Bruce" target="_top">Contact Bruce</a>
-              <p style={{fontSize: '2rem'}}>See more details below</p>
+              <p style={{ fontSize: '2rem' }}>See more details below</p>
             </div>
           </div>
         </div>
