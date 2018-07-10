@@ -41,11 +41,10 @@ class App extends Component {
               <p>He is a tech veteran with experience at top tier companies like Pandora and WebMD</p>
               <p>He launched the <a target="_blank" rel="noopener noreferrer" href="https://www.dapperguide.com">Dapper Guide Magazine</a></p>
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bruce-leong-112a904/"><p>Check out his Linkedin</p></a>
+              <a className="btn__email-submission" href="mailto:brucewleong@gmail.com?Subject=Hi Bruce" target="_top">Contact Bruce</a>
               <p>See more details below</p>
             </div>
-            {/*          <div>
-          <img className="sCat" src={sCatGame} />
-</div>*/}
+
           </div>
 
         </div>
