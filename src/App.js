@@ -12,9 +12,8 @@ import Carousel from 'nuka-carousel'
 class App extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-    }
   }
+
   render() {
     return (
       <div className="App">
@@ -23,13 +22,6 @@ class App extends Component {
           <p id="kicker"> Creator // Runner // Software Engineer</p>
         </header>
 
-        {/*
-        <nav>
-          <div>
-            <a href="mailto:brucewleong@gmail.com?Subject=Yo Buddy" target="_top">Contact Bruce</a>
-            <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=10UlFQ0tGuf4nDC1Zjf1ESHWtmpzW-teP">Check out Bruce's Resume</a>
-          </div>
-        </nav>*/}
         <div className="whitePage">
           <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }}>
             <div>
@@ -40,14 +32,15 @@ class App extends Component {
               <p>Bruce is a Runner, Software Engineer, father of 2 cats</p>
               <p>He is a tech veteran with experience at top tier companies like Pandora and WebMD</p>
               <p>He launched the <a target="_blank" rel="noopener noreferrer" href="https://www.dapperguide.com">Dapper Guide Magazine</a></p>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bruce-leong-112a904/"><p>Check out his Linkedin</p></a>
+              <a className="btn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bruce-leong-112a904/"> Bruce's Linkedin</a>
+              <br />
+              <br />
               <a className="btn__email-submission" href="mailto:brucewleong@gmail.com?Subject=Hi Bruce" target="_top">Contact Bruce</a>
-              <p>See more details below</p>
+              <p style={{fontSize: '2rem'}}>See more details below</p>
             </div>
-
           </div>
-
         </div>
+
         <div className="greyPage">
           <h1>Bruce's Work</h1>
           <h2>His Code: </h2>

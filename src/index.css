@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: lora;
+  font-family: sans-serif;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
 
 #title {
   text-align: center;
-  font-size: 50px;
+  font-size: 4rem;
   font-weight: 500;
   color:white;
   display: inline-block;
@@ -20,13 +20,13 @@ header {
   border: white solid 4px;
   letter-spacing: .05em;
   margin-top: 70px;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   clear: both;
-  font-family: lora;
+  font-family: sans-serif;
 }
 
 #kicker {
-  font-size: 15px;
+  font-size: 1.25rem;
   text-align: center;
   color: white;
   letter-spacing: .05em;
@@ -70,14 +70,14 @@ nav a {
 .worksTitle {
   display: flex;
   flex-wrap: wrap;
-  font-family: lora;
+  font-family: sans-serif;
   /* justify-content: center; */
 }
 
 .textContent {
   margin: 5vw;
   color: black;
-  font-family: lora;
+  font-family: sans-serif;
 }
 
 .greyPage {
@@ -114,6 +114,20 @@ nav a {
 }
 
 .btn__email-submission:active {
+  transform: translateY(-.4rem);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+}
+
+.btn {
+  background-color: grey;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 8rem;
+  padding: .2em;
+}
+
+.btn {
   transform: translateY(-.4rem);
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }
