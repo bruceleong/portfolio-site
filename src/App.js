@@ -68,7 +68,7 @@ class App extends Component {
               <h1>Kingdom</h1>
               <p><b>Description:</b> Location-based role playing game - Game of Thrones meets FourSquare</p>
               <p><b>Role:</b> Software Engineer</p>
-              <p><b>Technologies:</b> Javascript, React, Redux, OAuth, Trello, Netlify, CSS, HTML</p>
+              <p><b>Technologies:</b> Node.js, , PostgreSQL, Sequelize, Redux, OAuth, Trello, Netlify, CSS, HTML</p>
               <h4>CLICK HERE TO VISIT</h4>
               <iframe width="336" height="200" src="https://www.youtube.com/embed/FovQ4xsrMyY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'row' }}>
@@ -87,7 +87,7 @@ class App extends Component {
                 <h1>Samurai Cat Game</h1>
                 <p><b>Description:</b> Samurai Cat is a platformer game created during a Fullstack Academy Hackathon, which took place over the course of 4 days where developers were invited to explore and create new products</p>
                 <p><b>Role:</b> Software Engineer</p>
-                <p><b>Technologies:</b> Javascript, Phaser, Trello, designed all artwork</p>
+                <p><b>Technologies:</b> Phaser, Trello, designed all artwork</p>
                 <h4>CLICK HERE TO PLAY!</h4>
               </div>
               <iframe width="336" height="200" src="https://www.youtube.com/embed/wYe5ICYOUNU" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
