@@ -7,6 +7,7 @@ import DG from './images/dg.jpg'
 import github from './images/GitHub_Logo.png'
 import k1 from './images/kingdom-1.png'
 import k2 from './images/kingdom-2.png'
+import sbsf from './images/sbsf.png'
 
 class App extends Component {
   constructor(props) {
@@ -49,8 +50,23 @@ class App extends Component {
           <a target="_blank" rel="noopener noreferrer" href="https://dapperguide.com"><h4>Dapper Guide Magazine</h4></a>
           <br />
         </div>
+        <div className="whitePage">
+        <h1>His Projects: </h1>
+
+          <a target="_blank" rel="noopener noreferrer" href="http://sbsf.herokuapp.com/" style={{ textDecoration: 'none' }}>
+            <div className="textContent">
+              <h1>Side By Side Financials' Employee Resource</h1>
+              <p><b>Description:</b> Resource for SBSF client's to get info on their retirement account</p>
+              <p><b>Role:</b> Software Engineer</p>
+              <p><b>Technologies:</b> Cloud Firestore, Javascript, React, Trello, Netlify, CSS, HTML</p>
+              <h4>CLICK HERE TO VISIT</h4>
+              <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'row' }}>
+                <img style={{ 'height': '50%', 'width': '50%' }} src={sbsf} />
+              </div>
+            </div>
+          </a>
+        </div>
         <div className="bluePage">
-          <h1>His Projects: </h1>
           <a target="_blank" rel="noopener noreferrer" href="http://www.dapperguide.com/" style={{ textDecoration: 'none' }}>
             <div className="textContent">
               <h1>Dapper Guide</h1>
@@ -68,7 +84,7 @@ class App extends Component {
               <h1>Kingdom</h1>
               <p><b>Description:</b> Location-based role playing game - Game of Thrones meets FourSquare</p>
               <p><b>Role:</b> Software Engineer</p>
-              <p><b>Technologies:</b> Node.js, , PostgreSQL, Sequelize, Redux, OAuth, Trello, Netlify, CSS, HTML</p>
+              <p><b>Technologies:</b> Node.js, PostgreSQL, Sequelize, Redux, OAuth, Trello, Netlify, CSS, HTML</p>
               <h4>CLICK HERE TO VISIT</h4>
               <iframe width="336" height="200" src="https://www.youtube.com/embed/FovQ4xsrMyY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'row' }}>
