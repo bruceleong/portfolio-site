@@ -61,7 +61,7 @@ class App extends Component {
               <p><b>Technologies:</b> Cloud Firestore, Javascript, React, Trello, Netlify, CSS, HTML</p>
               <h4>CLICK HERE TO VISIT</h4>
               <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'row' }}>
-                <img style={{ 'height': '50%', 'width': '50%' }} src={sbsf} />
+                <img style={{ 'height': '50%', 'width': '50%' , 'border': '1px solid #D3D3D3'}} src={sbsf} />
               </div>
             </div>
           </a>
@@ -74,7 +74,7 @@ class App extends Component {
               <p><b>Role:</b> Software Engineer and Managing Editor</p>
               <p><b>Technologies:</b> Wordpress, CSS, HTML, PHP, wrote, shot and designed all media</p>
               <h4>CLICK HERE TO VISIT</h4>
-              <img style={{ 'height': '75%', 'width': '75%' }} src={DG} />
+              <img style={{ 'height': '75%', 'width': '75%', 'border': '1px solid #D3D3D3'}} src={DG} />
             </div>
           </a>
         </div>
