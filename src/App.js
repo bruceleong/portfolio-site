@@ -49,7 +49,7 @@ class App extends Component {
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/bruceleong"><img style={{ width: '25%', height: 'auto' }} src={github} /></a>
           <h2>His Writing: </h2>
           <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/the-wok/id1566289500"><h4>The Wok Podcast</h4></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@brucewleong/building-a-game-with-phaserjs-easy-steps-7e4b38d36e22"><h4>Build a game with PhaserJS (Easy steps) - Publication: Medium 2018</h4></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@brucewleong/building-a-game-with-phaserjs-easy-steps-7e4b38d36e22"><h4>Build a game with PhaserJS (Easy steps) - Publication: Medium '18</h4></a>
           <a target="_blank" rel="noopener noreferrer" href="https://dapperguide.com"><h4>Dapper Guide Magazine</h4></a>
           <br />
         </div>
