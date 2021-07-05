@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import profile from './profile_pic.png'
-import sCatCover from './images/scatCover.png'
-import sCatGame from './images/ezgif.com-gif-maker.gif'
-import DG from './images/dg.jpg'
-import github from './images/GitHub_Logo.png'
-import k1 from './images/kingdom-1.png'
-import k2 from './images/kingdom-2.png'
-import sbsf from './images/sbsf.png'
+import profile from './profile_pic.png';
+import sCatCover from './images/scatCover.png';
+import sCatGame from './images/ezgif.com-gif-maker.gif';
+import DG from './images/dg.jpg';
+import github from './images/GitHub_Logo.png';
+import k1 from './images/kingdom-1.png';
+import k2 from './images/kingdom-2.png';
+import sbsf from './images/sbsf.png';
+import wokLogo from './images/wokLogo.png';
 
 class App extends Component {
   constructor(props) {
@@ -30,7 +31,8 @@ class App extends Component {
             <div>
               <h1>Bruce leong</h1>
               <p>Bruce is a Runner, Software Engineer, father of 2 cats</p>
-              <p>He is a tech veteran with experience at top tier companies like Pandora and WebMD</p>
+              <p>He is a tech veteran with experience in building applications across many areas of focus</p>
+              <p>Currently working on <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/the-wok/id1566289500">The Wok Podcast</a></p>
               <p>He launched the <a target="_blank" rel="noopener noreferrer" href="https://www.dapperguide.com">Dapper Guide Magazine</a></p>
               <a className="btn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bruce-leong-112a904/"> Bruce's Linkedin</a>
               <br />
@@ -46,6 +48,7 @@ class App extends Component {
           <h2>His Code: </h2>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/bruceleong"><img style={{ width: '25%', height: 'auto' }} src={github} /></a>
           <h2>His Writing: </h2>
+          <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/the-wok/id1566289500"><h4>The Wok Podcast</h4></a>
           <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@brucewleong/building-a-game-with-phaserjs-easy-steps-7e4b38d36e22"><h4>Build a game with PhaserJS (Easy steps) - Publication: Medium 2018</h4></a>
           <a target="_blank" rel="noopener noreferrer" href="https://dapperguide.com"><h4>Dapper Guide Magazine</h4></a>
           <br />
@@ -53,7 +56,7 @@ class App extends Component {
         <div className="whitePage">
         <h1>His Projects: </h1>
 
-          <a target="_blank" rel="noopener noreferrer" href="http://sbsf.herokuapp.com/" style={{ textDecoration: 'none' }}>
+          <a target="_blank" rel="noopener noreferrer" href="https://orendaretirement.com/" style={{ textDecoration: 'none' }}>
             <div className="textContent">
               <h1>Side By Side Financials' Employee Resource</h1>
               <p><b>Description:</b> Resource for SBSF client's to get info on their retirement account</p>
@@ -66,6 +69,20 @@ class App extends Component {
             </div>
           </a>
         </div>
+        <div className="greyPage">
+        <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/the-wok/id1566289500" style={{ textDecoration: 'none' }}>
+          <div>
+            <div className="textContent">
+              <h1>The Wok Podcast</h1>
+              <p><b>Description:</b>The Wok is a platform to share and tell stories through the lens of food by Asian and Pacific Islander communities. The team presents narratives, and personal stories to add context to the foods we see and eat everyday. These stories explore identity, family history, and what it means to be part of the AAPI community.</p>
+              <p><b>Role:</b> Creator</p>
+              <p><b>Technologies:</b> Garage Band, iMovie, Audacity</p>
+              <h4>CLICK HERE TO Listen</h4>
+              <img style={{ 'height': '50%', 'width': '50%' , 'border': '1px solid #D3D3D3'}} src={wokLogo} />
+            </div>
+          </div>
+        </a>
+      </div>
         <div className="bluePage">
           <a target="_blank" rel="noopener noreferrer" href="http://www.dapperguide.com/" style={{ textDecoration: 'none' }}>
             <div className="textContent">
