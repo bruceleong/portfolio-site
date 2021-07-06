@@ -20,7 +20,7 @@ class App extends Component {
       <div className="App">
         <header>
           <h1 id="title">Bruce Leong</h1>
-          <p id="kicker"> Creator // Runner // Software Engineer</p>
+          <p id="kicker"> Creator + Software Engineer</p>
         </header>
 
         <div className="whitePage">
@@ -77,8 +77,9 @@ class App extends Component {
               <p><b>Description:</b>The Wok is a platform to share and tell stories through the lens of food by Asian and Pacific Islander communities. The team presents narratives, and personal stories to add context to the foods we see and eat everyday. These stories explore identity, family history, and what it means to be part of the AAPI community.</p>
               <p><b>Role:</b> Creator</p>
               <p><b>Technologies:</b> Garage Band, iMovie, Audacity</p>
+              <p><b>Art by:</b> <a target="_blank" rel="noopener noreferrer" href="https://abigailblackman.myportfolio.com/work">Abigail Blackman</a></p>
               <h4>CLICK HERE TO Listen</h4>
-              <img style={{ 'height': '50%', 'width': '50%' , 'border': '1px solid #D3D3D3'}} src={wokLogo} />
+              <img style={{ 'height': '25%', 'width': '25%' , 'border': '1px solid #D3D3D3'}} src={wokLogo} />
             </div>
           </div>
         </a>
